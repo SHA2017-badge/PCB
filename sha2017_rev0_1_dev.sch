@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7818,6 +7818,32 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="1210">
+<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.3" x2="1.6" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.3" x2="-1.6" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.3" x2="-1.6" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.3" x2="1.6" y2="-1.3" width="0.2032" layer="21"/>
+<smd name="1" x="-1.6" y="0" dx="1.2" dy="2" layer="1"/>
+<smd name="2" x="1.6" y="0" dx="1.2" dy="2" layer="1"/>
+<text x="-0.8" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 <package name="INDUCTOR-1206">
 <wire x1="-1.778" y1="2.032" x2="-3.81" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="2.032" x2="-3.81" y2="-2.032" width="0.127" layer="21"/>
@@ -7918,18 +7944,6 @@ chip</description>
 <wire x1="-1" y1="-3.65" x2="-1" y2="-2.55" width="0.127" layer="21"/>
 <smd name="P$1" x="0" y="0" dx="4.7" dy="1.75" layer="1" rot="R90"/>
 <smd name="P$2" x="6.05" y="0" dx="4.7" dy="1.75" layer="1" rot="R90"/>
-</package>
-<package name="1210">
-<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.3" x2="1.6" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.3" x2="-1.6" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.3" x2="-1.6" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.3" x2="1.6" y2="-1.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.6" y="0" dx="1.2" dy="2" layer="1"/>
-<smd name="2" x="1.6" y="0" dx="1.2" dy="2" layer="1"/>
-<text x="-0.8" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="1007">
 <description>1007 (2518 metric) package</description>
@@ -8186,22 +8200,20 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <text x="-7" y="7.5" size="0.8128" layer="21" font="vector" ratio="15">&gt;NAME</text>
 <text x="-7" y="-8.5" size="0.8128" layer="21" font="vector" ratio="15">&gt;VALUE</text>
 </package>
-<package name="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
-<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
-<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
+<symbol name="PAD-JUMPER-2-NC_BY_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+</symbol>
 <symbol name="INDUCTOR">
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -8216,20 +8228,24 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="PAD-JUMPER-2-NC_BY_TRACE">
-<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
+<deviceset name="JUMPER-PAD-2-NC_BY_TRACE" prefix="SJ">
+<gates>
+<gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
 <description>&lt;b&gt;Inductors&lt;/b&gt;&lt;p&gt;
 Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly between part numbers.&lt;br&gt;
@@ -8506,22 +8522,6 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <attribute name="PROD_ID" value="NDUC-12529" constant="no"/>
 <attribute name="VALUE" value="27uH" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER-PAD-2-NC_BY_TRACE" prefix="SJ">
-<gates>
-<gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_TRACE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10270,7 +10270,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="IC1" library="SparkFun-DigitalIC" deviceset="CP210X_USB_UART" device=""/>
 <part name="USB100" library="usb_con-update" deviceset="MOLEX-47346-0001" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="C27" library="00ralf" deviceset="C0603-DASHES" device="" value="2u2/16V"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="2u2/16V"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="PMEG4005EJ"/>
@@ -10292,8 +10292,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
 <part name="C10" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C12" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
 <part name="C13" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -10303,8 +10303,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="C15" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
-<part name="C16" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="EAGLE-FPC_CONNECTOR_AND_FFC_CAB-rev1" deviceset="68712414022" device=""/>
@@ -10326,8 +10326,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="C25" library="00ralf" deviceset="C0603-DASHES" device="" value="1u"/>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="-" value="22µ"/>
-<part name="C26" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
+<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="22µ"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="badge" deviceset="AP7215" device=""/>
@@ -10407,7 +10407,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
-<part name="R714" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="R714" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603"/>
@@ -10484,7 +10484,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="+3V1" gate="G$1" x="307.34" y="175.26" rot="R90"/>
 <instance part="C25" gate="G$1" x="314.96" y="171.45" rot="MR0"/>
 <instance part="L1" gate="G$1" x="264.16" y="175.26" rot="R90"/>
-<instance part="C26" gate="G$1" x="256.54" y="171.45" rot="MR0"/>
+<instance part="C26" gate="G$1" x="256.54" y="172.72" rot="MR0"/>
 <instance part="+3V3" gate="G$1" x="246.38" y="175.26" rot="R90"/>
 <instance part="GND37" gate="1" x="256.54" y="165.1"/>
 <instance part="SW801" gate="G$1" x="96.52" y="111.76"/>
@@ -10570,7 +10570,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
-<wire x1="76.2" y1="172.72" x2="76.2" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="172.72" x2="76.2" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -10767,7 +10767,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <wire x1="66.04" y1="193.04" x2="73.66" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="193.04" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="184.15" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="182.88" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
 <junction x="76.2" y="193.04"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="C"/>
@@ -11319,28 +11319,28 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <junction x="160.02" y="38.1"/>
 </segment>
 </net>
-<net name="SD_DAT2" class="0">
+<net name="SD_DATA2" class="0">
 <segment>
 <pinref part="X701" gate="G$1" pin="NC"/>
 <wire x1="167.64" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
 <label x="154.94" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SD_DAT0" class="0">
+<net name="SD_DATA0" class="0">
 <segment>
 <pinref part="X701" gate="G$1" pin="DO"/>
 <wire x1="167.64" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="154.94" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SD_DAT1" class="0">
+<net name="SD_DATA1" class="0">
 <segment>
 <pinref part="X701" gate="G$1" pin="RSV"/>
 <wire x1="167.64" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <label x="154.94" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SD_DAT3" class="0">
+<net name="SD_DATA3" class="0">
 <segment>
 <pinref part="X701" gate="G$1" pin="CS"/>
 <wire x1="167.64" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
@@ -11885,7 +11885,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="C10" gate="G$1" x="137.16" y="135.89" rot="MR0"/>
 <instance part="C11" gate="G$1" x="132.08" y="137.16"/>
-<instance part="C12" gate="G$1" x="187.96" y="135.89" rot="MR0"/>
+<instance part="C12" gate="G$1" x="187.96" y="137.16" rot="MR0"/>
 <instance part="C13" gate="G$1" x="193.04" y="135.89" rot="MR0"/>
 <instance part="C14" gate="G$1" x="198.12" y="137.16"/>
 <instance part="GND20" gate="1" x="132.08" y="129.54" rot="MR0"/>
@@ -11895,8 +11895,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="GND25" gate="1" x="193.04" y="129.54" rot="MR0"/>
 <instance part="GND27" gate="1" x="198.12" y="129.54" rot="MR0"/>
 <instance part="+3V2" gate="G$1" x="208.28" y="139.7" rot="R270"/>
-<instance part="C15" gate="G$1" x="182.88" y="135.89" rot="MR0"/>
-<instance part="C16" gate="G$1" x="177.8" y="135.89" rot="MR0"/>
+<instance part="C15" gate="G$1" x="182.88" y="137.16" rot="MR0"/>
+<instance part="C16" gate="G$1" x="177.8" y="137.16" rot="MR0"/>
 <instance part="GND28" gate="1" x="182.88" y="129.54" rot="MR0"/>
 <instance part="GND29" gate="1" x="177.8" y="129.54" rot="MR0"/>
 <instance part="IC2" gate="G$1" x="157.48" y="139.7"/>
