@@ -10248,35 +10248,35 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SparkFun-DigitalIC" deviceset="CP210X_USB_UART" device=""/>
-<part name="USB100" library="usb_con-update" deviceset="MOLEX-47346-0001" device=""/>
+<part name="IC3" library="SparkFun-DigitalIC" deviceset="CP210X_USB_UART" device=""/>
+<part name="USB1" library="usb_con-update" deviceset="MOLEX-47346-0001" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="2u2/16V"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="2u2/16V"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA"/>
-<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="PMEG4005EJ"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="PMEG4005EJ"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="00ralf" deviceset="R0603-DASHES" device="" value="10k"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G"/>
 <part name="D7" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
-<part name="D10" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
-<part name="D11" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
-<part name="C10" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
-<part name="C13" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
+<part name="D3" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G"/>
+<part name="C1" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C5" library="00ralf" deviceset="C0603-DASHES" device="" value="4u7/16V"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
@@ -10284,54 +10284,54 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="EAGLE-FPC_CONNECTOR_AND_FFC_CAB-rev1" deviceset="68712414022" device=""/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="J1" library="EAGLE-FPC_CONNECTOR_AND_FFC_CAB-rev1" deviceset="68712414022" device=""/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="R9" library="00ralf" deviceset="R0603-DASHES" device="" value="5R"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="R7" library="00ralf" deviceset="R0603-DASHES" device="" value="5R"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C25" library="00ralf" deviceset="C0603-DASHES" device="" value="1u"/>
+<part name="C19" library="00ralf" deviceset="C0603-DASHES" device="" value="1u"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="22µ"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="badge" deviceset="AP7215" device=""/>
+<part name="IC1" library="badge" deviceset="AP7215" device=""/>
 <part name="FRAME3" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="IC3" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="IC32" library="badge" deviceset="ESP32_AI" device=""/>
+<part name="IC4" library="badge" deviceset="ESP32_AI" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="+2V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603">
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603">
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -10339,68 +10339,68 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M11" device="LOCK"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M11" device="LOCK"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M11" device="LOCK"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M09" device="LOCK"/>
-<part name="SW801" library="badge" deviceset="MCMT5-F-V" device=""/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M09" device="LOCK"/>
+<part name="SW100" library="badge" deviceset="MCMT5-F-V" device=""/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="S5" library="switch" deviceset="SKHMP*E010" device="" technology="S"/>
+<part name="S101" library="switch" deviceset="SKHMP*E010" device="" technology="S"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="S6" library="switch" deviceset="SKHMP*E010" device="" technology="S"/>
+<part name="S100" library="switch" deviceset="SKHMP*E010" device="" technology="S"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ6" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ7" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ8" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ9" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ10" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ11" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ12" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ11" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ13" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="SJ14" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ6" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ7" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="S1" library="switch" deviceset="SKHMP*E010" device="" technology="S"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="D100" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="+2V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="X701" library="con-3m" deviceset="2908-" device="05WB-MG">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="R714" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D6" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD3" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="VDD5" library="supply1" deviceset="VDD" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -10416,21 +10416,21 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <text x="162.56" y="81.28" size="2.54" layer="94">SD card</text>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="119.38" y="187.96"/>
-<instance part="USB100" gate="G$1" x="31.75" y="187.96" rot="MR0"/>
+<instance part="IC3" gate="G$1" x="119.38" y="187.96"/>
+<instance part="USB1" gate="G$1" x="31.75" y="187.96" rot="MR0"/>
 <instance part="GND47" gate="1" x="40.64" y="170.18" rot="MR0"/>
-<instance part="C27" gate="G$1" x="76.2" y="180.34" rot="MR0"/>
+<instance part="C2" gate="G$1" x="76.2" y="180.34" rot="MR0"/>
 <instance part="GND46" gate="1" x="76.2" y="170.18" rot="MR0"/>
 <instance part="F1" gate="G$1" x="55.88" y="193.04"/>
-<instance part="D3" gate="G$1" x="66.04" y="180.34" rot="R90"/>
+<instance part="D1" gate="G$1" x="66.04" y="180.34" rot="R90"/>
 <instance part="GND26" gate="1" x="66.04" y="170.18" rot="MR0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="Q1" gate="G$1" x="198.12" y="190.5"/>
 <instance part="Q2" gate="G$1" x="198.12" y="175.26" rot="MR180"/>
-<instance part="R1" gate="G$1" x="187.96" y="190.5"/>
-<instance part="R2" gate="G$1" x="187.96" y="175.26"/>
-<instance part="C1" gate="G$1" x="81.28" y="180.34"/>
-<instance part="C2" gate="G$1" x="93.98" y="195.58" rot="R270"/>
+<instance part="R6" gate="G$1" x="187.96" y="190.5"/>
+<instance part="R5" gate="G$1" x="187.96" y="175.26"/>
+<instance part="C11" gate="G$1" x="81.28" y="180.34"/>
+<instance part="C6" gate="G$1" x="93.98" y="195.58" rot="R270"/>
 <instance part="GND6" gate="1" x="86.36" y="193.04" rot="MR0"/>
 <instance part="GND7" gate="1" x="81.28" y="170.18" rot="MR0"/>
 <instance part="GND8" gate="1" x="99.06" y="170.18" rot="MR0"/>
@@ -10439,77 +10439,77 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <attribute name="VALUE" x="144.78" y="199.898" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="1" x="66.04" y="203.2"/>
-<instance part="Q6" gate="G$1" x="279.4" y="170.18" rot="MR0"/>
+<instance part="Q3" gate="G$1" x="279.4" y="170.18" rot="MR0"/>
 <instance part="D7" gate="G$1" x="271.78" y="193.04" rot="R90"/>
-<instance part="D10" gate="G$1" x="294.64" y="193.04" rot="R270"/>
-<instance part="D11" gate="G$1" x="281.94" y="193.04" rot="R90"/>
-<instance part="J2" gate="G$1" x="340.36" y="180.34" rot="MR180"/>
-<instance part="C17" gate="G$1" x="264.16" y="198.12" rot="R90"/>
-<instance part="C18" gate="G$1" x="287.02" y="198.12" rot="R90"/>
+<instance part="D2" gate="G$1" x="294.64" y="193.04" rot="R270"/>
+<instance part="D3" gate="G$1" x="281.94" y="193.04" rot="R90"/>
+<instance part="J1" gate="G$1" x="340.36" y="180.34" rot="MR180"/>
+<instance part="C13" gate="G$1" x="264.16" y="198.12" rot="R90"/>
+<instance part="C9" gate="G$1" x="287.02" y="198.12" rot="R90"/>
 <instance part="GND9" gate="1" x="276.86" y="187.96"/>
 <instance part="GND31" gate="1" x="259.08" y="187.96"/>
-<instance part="C19" gate="G$1" x="289.56" y="182.88"/>
-<instance part="R9" gate="G$1" x="279.4" y="160.02" smashed="yes" rot="MR270">
+<instance part="C14" gate="G$1" x="289.56" y="182.88"/>
+<instance part="R7" gate="G$1" x="279.4" y="160.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="277.9014" y="157.226" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="282.702" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND32" gate="1" x="279.4" y="152.4"/>
-<instance part="C20" gate="G$1" x="320.04" y="203.2" rot="R90"/>
-<instance part="C21" gate="G$1" x="320.04" y="200.66" rot="R90"/>
-<instance part="C22" gate="G$1" x="320.04" y="162.56" rot="R90"/>
-<instance part="C23" gate="G$1" x="320.04" y="157.48" rot="R90"/>
-<instance part="C24" gate="G$1" x="320.04" y="152.4" rot="R90"/>
+<instance part="C18" gate="G$1" x="320.04" y="203.2" rot="R90"/>
+<instance part="C17" gate="G$1" x="320.04" y="200.66" rot="R90"/>
+<instance part="C12" gate="G$1" x="320.04" y="162.56" rot="R90"/>
+<instance part="C10" gate="G$1" x="320.04" y="157.48" rot="R90"/>
+<instance part="C7" gate="G$1" x="320.04" y="152.4" rot="R90"/>
 <instance part="GND33" gate="1" x="314.96" y="147.32"/>
 <instance part="GND34" gate="1" x="314.96" y="195.58"/>
 <instance part="GND35" gate="1" x="307.34" y="187.96"/>
 <instance part="GND36" gate="1" x="314.96" y="165.1"/>
 <instance part="+3V1" gate="G$1" x="307.34" y="175.26" rot="R90"/>
-<instance part="C25" gate="G$1" x="314.96" y="171.45" rot="MR0"/>
+<instance part="C19" gate="G$1" x="314.96" y="171.45" rot="MR0"/>
 <instance part="L1" gate="G$1" x="264.16" y="175.26" rot="R90"/>
-<instance part="C26" gate="G$1" x="256.54" y="172.72" rot="MR0"/>
+<instance part="C16" gate="G$1" x="256.54" y="172.72" rot="MR0"/>
 <instance part="+3V3" gate="G$1" x="246.38" y="175.26" rot="R90"/>
 <instance part="GND37" gate="1" x="256.54" y="165.1"/>
-<instance part="SW801" gate="G$1" x="96.52" y="111.76"/>
+<instance part="SW100" gate="G$1" x="96.52" y="111.76"/>
 <instance part="GND52" gate="1" x="101.6" y="101.6" smashed="yes">
 <attribute name="VALUE" x="98.552" y="99.06" size="1.778" layer="96"/>
 </instance>
 <instance part="GND10" gate="1" x="55.88" y="104.14" smashed="yes">
 <attribute name="VALUE" x="52.832" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="40.64" y="129.54" rot="R90"/>
-<instance part="R6" gate="G$1" x="45.72" y="129.54" rot="R90"/>
-<instance part="R7" gate="G$1" x="50.8" y="129.54" rot="R90"/>
-<instance part="R8" gate="G$1" x="55.88" y="129.54" rot="R90"/>
-<instance part="R11" gate="G$1" x="106.68" y="127" rot="R90"/>
+<instance part="R16" gate="G$1" x="40.64" y="129.54" rot="R90"/>
+<instance part="R13" gate="G$1" x="45.72" y="129.54" rot="R90"/>
+<instance part="R14" gate="G$1" x="50.8" y="129.54" rot="R90"/>
+<instance part="R12" gate="G$1" x="55.88" y="129.54" rot="R90"/>
+<instance part="R15" gate="G$1" x="106.68" y="127" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="45.72" y="144.78"/>
 <instance part="+3V6" gate="G$1" x="106.68" y="142.24"/>
-<instance part="S5" gate="G$1" x="160.02" y="101.6"/>
+<instance part="S101" gate="G$1" x="160.02" y="101.6"/>
 <instance part="GND11" gate="1" x="152.4" y="93.98"/>
-<instance part="S6" gate="G$1" x="226.06" y="132.08"/>
+<instance part="S100" gate="G$1" x="226.06" y="132.08"/>
 <instance part="GND12" gate="1" x="218.44" y="124.46"/>
-<instance part="R12" gate="G$1" x="170.18" y="109.22" rot="R90"/>
+<instance part="R17" gate="G$1" x="170.18" y="109.22" rot="R90"/>
 <instance part="+3V8" gate="G$1" x="170.18" y="116.84"/>
 <instance part="S1" gate="G$1" x="226.06" y="104.14"/>
 <instance part="GND13" gate="1" x="218.44" y="96.52"/>
-<instance part="R13" gate="G$1" x="236.22" y="139.7" rot="R90"/>
+<instance part="R9" gate="G$1" x="236.22" y="139.7" rot="R90"/>
 <instance part="+3V10" gate="G$1" x="236.22" y="147.32"/>
-<instance part="D1" gate="G$1" x="71.12" y="50.8" rot="R270"/>
-<instance part="R14" gate="G$1" x="78.74" y="50.8"/>
+<instance part="D100" gate="G$1" x="71.12" y="50.8" rot="R270"/>
+<instance part="R11" gate="G$1" x="78.74" y="50.8"/>
 <instance part="+2V2" gate="G$1" x="88.9" y="50.8" rot="R270"/>
 <instance part="X701" gate="G$1" x="175.26" y="48.26"/>
 <instance part="GND59" gate="1" x="160.02" y="22.86" smashed="yes">
 <attribute name="VALUE" x="160.02" y="21.59" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R714" gate="G$1" x="160.02" y="68.58" smashed="yes" rot="R270">
+<instance part="R10" gate="G$1" x="160.02" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="152.273" y="69.0626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.273" y="66.548" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="147.32" y="162.56" rot="R180"/>
-<instance part="D4" gate="G$1" x="152.4" y="162.56" rot="R180"/>
+<instance part="D4" gate="G$1" x="147.32" y="162.56" rot="R180"/>
+<instance part="D6" gate="G$1" x="152.4" y="162.56" rot="R180"/>
 <instance part="D5" gate="G$1" x="93.98" y="226.06" rot="R270"/>
-<instance part="R15" gate="G$1" x="101.6" y="226.06"/>
-<instance part="R16" gate="G$1" x="147.32" y="154.94" rot="R270"/>
-<instance part="R17" gate="G$1" x="152.4" y="154.94" rot="R270"/>
+<instance part="R2" gate="G$1" x="101.6" y="226.06"/>
+<instance part="R1" gate="G$1" x="147.32" y="154.94" rot="R270"/>
+<instance part="R4" gate="G$1" x="152.4" y="154.94" rot="R270"/>
 <instance part="VDD1" gate="G$1" x="99.06" y="198.12"/>
 <instance part="VDD2" gate="G$1" x="109.22" y="226.06" rot="R270"/>
 <instance part="VDD3" gate="G$1" x="152.4" y="147.32" rot="R180"/>
@@ -10517,9 +10517,9 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="GND15" gate="1" x="86.36" y="220.98" rot="MR0"/>
 <instance part="VDD5" gate="G$1" x="154.94" y="203.2" rot="R270"/>
 <instance part="+3V7" gate="G$1" x="162.56" y="76.2"/>
-<instance part="C6" gate="G$1" x="60.96" y="134.62"/>
+<instance part="C25" gate="G$1" x="60.96" y="134.62"/>
 <instance part="GND16" gate="1" x="60.96" y="127" rot="MR0"/>
-<instance part="C7" gate="G$1" x="165.1" y="71.12"/>
+<instance part="C15" gate="G$1" x="165.1" y="71.12"/>
 <instance part="GND17" gate="1" x="165.1" y="63.5"/>
 </instances>
 <busses>
@@ -10529,19 +10529,19 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="36.83" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="182.88" x2="40.64" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="USB100" gate="G$1" pin="5"/>
+<pinref part="USB1" gate="G$1" pin="5"/>
 <pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="USB100" gate="G$1" pin="GND4"/>
+<pinref part="USB1" gate="G$1" pin="GND4"/>
 <wire x1="25.4" y1="175.26" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="USB100" gate="G$1" pin="GND1"/>
+<pinref part="USB1" gate="G$1" pin="GND1"/>
 <wire x1="27.94" y1="172.72" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="172.72" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="172.72" x2="40.64" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="175.26" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="USB100" gate="G$1" pin="GND2"/>
+<pinref part="USB1" gate="G$1" pin="GND2"/>
 <wire x1="30.48" y1="175.26" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="USB100" gate="G$1" pin="GND3"/>
+<pinref part="USB1" gate="G$1" pin="GND3"/>
 <wire x1="27.94" y1="175.26" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
 <junction x="27.94" y="172.72"/>
 <junction x="30.48" y="172.72"/>
@@ -10551,31 +10551,31 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
 <wire x1="76.2" y1="172.72" x2="76.2" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="177.8" x2="66.04" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="86.36" y1="195.58" x2="88.9" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="172.72" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND@M"/>
+<pinref part="IC3" gate="G$1" pin="GND@M"/>
 <wire x1="101.6" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="177.8" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="175.26" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="172.72" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND@EXP"/>
+<pinref part="IC3" gate="G$1" pin="GND@EXP"/>
 <wire x1="101.6" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <junction x="99.06" y="172.72"/>
@@ -10583,18 +10583,18 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </segment>
 <segment>
 <wire x1="330.2" y1="170.18" x2="335.28" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="8"/>
+<pinref part="J1" gate="G$1" pin="8"/>
 <wire x1="330.2" y1="170.18" x2="325.12" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="314.96" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="167.64" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="170.18" x2="325.12" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <junction x="314.96" y="167.64"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="284.48" y1="198.12" x2="281.94" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="198.12" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="198.12" x2="276.86" y2="198.12" width="0.1524" layer="91"/>
@@ -10603,87 +10603,87 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <junction x="281.94" y="198.12"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="261.62" y1="198.12" x2="259.08" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="198.12" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="162.56" x2="314.96" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="162.56" x2="314.96" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="157.48" x2="314.96" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="152.4" x2="314.96" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="152.4" x2="314.96" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="157.48" x2="314.96" y2="157.48" width="0.1524" layer="91"/>
 <junction x="314.96" y="157.48"/>
 <junction x="314.96" y="152.4"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="203.2" x2="314.96" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="203.2" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
 <junction x="314.96" y="200.66"/>
 <wire x1="314.96" y1="200.66" x2="314.96" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="200.66" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="335.28" y1="193.04" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="17"/>
+<pinref part="J1" gate="G$1" pin="17"/>
 <wire x1="330.2" y1="193.04" x2="307.34" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="193.04" x2="307.34" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SW801" gate="G$1" pin="TAB2"/>
+<pinref part="SW100" gate="G$1" pin="TAB2"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 <wire x1="96.52" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="121.92" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SW801" gate="G$1" pin="TAB1"/>
+<pinref part="SW100" gate="G$1" pin="TAB1"/>
 <wire x1="101.6" y1="119.38" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 <junction x="101.6" y="119.38"/>
 </segment>
 <segment>
-<pinref part="SW801" gate="G$1" pin="COMMON"/>
+<pinref part="SW100" gate="G$1" pin="COMMON"/>
 <wire x1="58.42" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S5" gate="G$1" pin="SH"/>
+<pinref part="S101" gate="G$1" pin="SH"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="152.4" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="1.1"/>
-<pinref part="S5" gate="G$1" pin="1.2"/>
+<pinref part="S101" gate="G$1" pin="1.1"/>
+<pinref part="S101" gate="G$1" pin="1.2"/>
 <wire x1="152.4" y1="101.6" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
 <junction x="152.4" y="99.06"/>
 <wire x1="152.4" y1="99.06" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <junction x="152.4" y="96.52"/>
 </segment>
 <segment>
-<pinref part="S6" gate="G$1" pin="1.1"/>
+<pinref part="S100" gate="G$1" pin="1.1"/>
 <wire x1="220.98" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="132.08" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="S6" gate="G$1" pin="SH"/>
+<pinref part="S100" gate="G$1" pin="SH"/>
 <wire x1="218.44" y1="129.54" x2="218.44" y2="127" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
-<pinref part="S6" gate="G$1" pin="1.2"/>
+<pinref part="S100" gate="G$1" pin="1.2"/>
 <wire x1="220.98" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <junction x="218.44" y="127"/>
@@ -10728,11 +10728,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -10740,23 +10740,23 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="63.5" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="193.04" x2="73.66" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="193.04" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="182.88" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
 <junction x="76.2" y="193.04"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="66.04" y1="182.88" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
 <junction x="66.04" y="193.04"/>
 <wire x1="76.2" y1="193.04" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VBUS"/>
+<pinref part="IC3" gate="G$1" pin="VBUS"/>
 <wire x1="101.6" y1="200.66" x2="81.28" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="200.66" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="200.66" x2="81.28" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="REGIN"/>
+<pinref part="IC3" gate="G$1" pin="REGIN"/>
 <wire x1="81.28" y1="203.2" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
 <junction x="81.28" y="200.66"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="182.88" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="193.04" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="193.04" x2="73.66" y2="193.04" width="0.1524" layer="91"/>
@@ -10767,18 +10767,18 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="USB_DN_CON" class="0">
 <segment>
-<pinref part="USB100" gate="G$1" pin="2"/>
+<pinref part="USB1" gate="G$1" pin="2"/>
 <wire x1="36.83" y1="190.5" x2="40.64" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="190.5" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="D-"/>
+<pinref part="IC3" gate="G$1" pin="D-"/>
 <wire x1="96.52" y1="185.42" x2="101.6" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="190.5" x2="50.8" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="2">
 <segment>
-<pinref part="USB100" gate="G$1" pin="1"/>
+<pinref part="USB1" gate="G$1" pin="1"/>
 <wire x1="36.83" y1="193.04" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
@@ -10789,9 +10789,9 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <wire x1="200.66" y1="185.42" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="180.34" x2="180.34" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="180.34" x2="180.34" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="175.26" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="RTS"/>
+<pinref part="IC3" gate="G$1" pin="RTS"/>
 <wire x1="139.7" y1="175.26" x2="180.34" y2="175.26" width="0.1524" layer="91"/>
 <junction x="180.34" y="175.26"/>
 </segment>
@@ -10802,9 +10802,9 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <wire x1="200.66" y1="180.34" x2="193.04" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="185.42" x2="180.34" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="185.42" x2="180.34" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="190.5" x2="182.88" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="DTR"/>
+<pinref part="IC3" gate="G$1" pin="DTR"/>
 <wire x1="139.7" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="185.42" x2="180.34" y2="185.42" width="0.1524" layer="91"/>
 <junction x="180.34" y="185.42"/>
@@ -10812,14 +10812,14 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <wire x1="193.04" y1="175.26" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="193.04" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
 </segment>
@@ -10852,21 +10852,21 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="233.68" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
 <label x="243.84" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="S6" gate="G$1" pin="2.1"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="S100" gate="G$1" pin="2.1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="132.08" x2="243.84" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="133.35" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="134.62" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="129.54" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="S6" gate="G$1" pin="2.2"/>
+<pinref part="S100" gate="G$1" pin="2.2"/>
 <wire x1="233.68" y1="129.54" x2="234.95" y2="129.54" width="0.1524" layer="91"/>
 <junction x="236.22" y="132.08"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="!RST"/>
+<pinref part="IC3" gate="G$1" pin="!RST"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="203.2" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
 </segment>
@@ -10874,68 +10874,68 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <net name="+3V3" class="0">
 <segment>
 <wire x1="330.2" y1="175.26" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="10"/>
+<pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="330.2" y1="175.26" x2="327.66" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="175.26" x2="327.66" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="172.72" x2="335.28" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="9"/>
+<pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="327.66" y1="172.72" x2="330.2" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="172.72" x2="327.66" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="172.72" x2="327.66" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="167.64" x2="335.28" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="7"/>
+<pinref part="J1" gate="G$1" pin="7"/>
 <wire x1="327.66" y1="167.64" x2="330.2" y2="167.64" width="0.1524" layer="91"/>
 <junction x="327.66" y="172.72"/>
 <junction x="327.66" y="175.26"/>
 <wire x1="327.66" y1="175.26" x2="325.12" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="175.26" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <junction x="314.96" y="175.26"/>
 <wire x1="314.96" y1="175.26" x2="309.88" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
 <junction x="256.54" y="175.26"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="134.62" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="137.16" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="134.62" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="134.62" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <junction x="45.72" y="137.16"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <junction x="50.8" y="137.16"/>
 <junction x="55.88" y="137.16"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="106.68" y1="139.7" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="+2V2" gate="G$1" pin="+3V3"/>
 </segment>
@@ -10943,11 +10943,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <pinref part="X701" gate="G$1" pin="VCC"/>
 <wire x1="162.56" y1="73.66" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R714" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <junction x="162.56" y="73.66"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10955,10 +10955,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="335.28" y1="208.28" x2="330.2" y2="208.28" width="0.1524" layer="91"/>
 <label x="330.2" y="208.28" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="23"/>
+<pinref part="J1" gate="G$1" pin="23"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="G$1" pin="G"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="287.02" y1="170.18" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
 <label x="292.1" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -10967,11 +10967,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="335.28" y1="205.74" x2="330.2" y2="205.74" width="0.1524" layer="91"/>
 <label x="330.2" y="205.74" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="22"/>
+<pinref part="J1" gate="G$1" pin="22"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="G$1" pin="S"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="165.1" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <junction x="279.4" y="165.1"/>
 <label x="292.1" y="165.1" size="1.27" layer="95" xref="yes"/>
@@ -10981,8 +10981,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="335.28" y1="203.2" x2="330.2" y2="203.2" width="0.1524" layer="91"/>
 <label x="330.2" y="203.2" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="21"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="21"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="203.2" x2="330.2" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10990,8 +10990,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="335.28" y1="200.66" x2="330.2" y2="200.66" width="0.1524" layer="91"/>
 <label x="330.2" y="200.66" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="20"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="20"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="200.66" x2="330.2" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10999,27 +10999,27 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="335.28" y1="198.12" x2="330.2" y2="198.12" width="0.1524" layer="91"/>
 <label x="330.2" y="198.12" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="19"/>
+<pinref part="J1" gate="G$1" pin="19"/>
 </segment>
 </net>
 <net name="TSDA" class="0">
 <segment>
 <wire x1="335.28" y1="195.58" x2="330.2" y2="195.58" width="0.1524" layer="91"/>
 <label x="330.2" y="195.58" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="18"/>
+<pinref part="J1" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="LCD_BUSY" class="0">
 <segment>
 <wire x1="335.28" y1="190.5" x2="330.2" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="16"/>
+<pinref part="J1" gate="G$1" pin="16"/>
 <label x="330.2" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_!RESET" class="0">
 <segment>
 <wire x1="335.28" y1="187.96" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="15"/>
+<pinref part="J1" gate="G$1" pin="15"/>
 <label x="330.2" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -11027,21 +11027,21 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="335.28" y1="182.88" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="13"/>
+<pinref part="J1" gate="G$1" pin="13"/>
 <label x="330.2" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_SCK" class="0">
 <segment>
 <wire x1="330.2" y1="180.34" x2="335.28" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="12"/>
+<pinref part="J1" gate="G$1" pin="12"/>
 <label x="330.2" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_MOSI" class="0">
 <segment>
 <wire x1="330.2" y1="177.8" x2="335.28" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="11"/>
+<pinref part="J1" gate="G$1" pin="11"/>
 <label x="330.2" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -11049,15 +11049,15 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="330.2" y1="165.1" x2="335.28" y2="165.1" width="0.1524" layer="91"/>
 <label x="330.2" y="165.1" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="6"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="VSH" class="0">
 <segment>
 <wire x1="330.2" y1="162.56" x2="335.28" y2="162.56" width="0.1524" layer="91"/>
 <label x="330.2" y="162.56" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="5"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="162.56" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11065,12 +11065,12 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="330.2" y1="160.02" x2="335.28" y2="160.02" width="0.1524" layer="91"/>
 <label x="330.2" y="160.02" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="271.78" y1="195.58" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="198.12" x2="271.78" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="198.12" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
 <label x="271.78" y="203.2" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -11081,8 +11081,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="330.2" y1="157.48" x2="335.28" y2="157.48" width="0.1524" layer="91"/>
 <label x="330.2" y="157.48" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="3"/>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="157.48" x2="327.66" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="157.48" x2="330.2" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -11091,11 +11091,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="330.2" y1="154.94" x2="335.28" y2="154.94" width="0.1524" layer="91"/>
 <label x="330.2" y="154.94" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="D10" gate="G$1" pin="A"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="292.1" y1="198.12" x2="294.64" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="198.12" x2="294.64" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="198.12" x2="294.64" y2="203.2" width="0.1524" layer="91"/>
@@ -11108,17 +11108,17 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <wire x1="332.74" y1="152.4" x2="335.28" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="152.4" x2="330.2" y2="152.4" width="0.1524" layer="91"/>
 <label x="330.2" y="152.4" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="152.4" x2="325.12" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESP32_TX" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="RXD"/>
+<pinref part="IC3" gate="G$1" pin="RXD"/>
 <wire x1="139.7" y1="177.8" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
 <label x="160.02" y="177.8" size="1.27" layer="95" xref="yes"/>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="152.4" y1="177.8" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="167.64" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
 <junction x="152.4" y="177.8"/>
@@ -11126,10 +11126,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="ESP32_RX" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="TXD"/>
+<pinref part="IC3" gate="G$1" pin="TXD"/>
 <wire x1="139.7" y1="180.34" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <label x="160.02" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="147.32" y1="180.34" x2="160.02" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="167.64" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <junction x="147.32" y="180.34"/>
@@ -11137,13 +11137,13 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="281.94" y1="190.5" x2="281.94" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="281.94" y1="185.42" x2="289.56" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="185.42" x2="294.64" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="185.42" x2="294.64" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <junction x="289.56" y="185.42"/>
 </segment>
 </net>
@@ -11151,11 +11151,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="271.78" y1="190.5" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="175.26" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="175.26" x2="289.56" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="175.26" x2="289.56" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <junction x="279.4" y="175.26"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <junction x="271.78" y="175.26"/>
@@ -11163,21 +11163,21 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="USB_DP_CON" class="0">
 <segment>
-<pinref part="USB100" gate="G$1" pin="3"/>
+<pinref part="USB1" gate="G$1" pin="3"/>
 <wire x1="36.83" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="190.5" x2="96.52" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="187.96" x2="96.52" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="D+"/>
+<pinref part="IC3" gate="G$1" pin="D+"/>
 <wire x1="40.64" y1="187.96" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BT_MID" class="0">
 <segment>
-<pinref part="SW801" gate="G$1" pin="DUMMY"/>
+<pinref part="SW100" gate="G$1" pin="DUMMY"/>
 <wire x1="96.52" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <label x="111.76" y="116.84" size="1.016" layer="95" xref="yes"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="121.92" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <junction x="106.68" y="116.84"/>
@@ -11185,11 +11185,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="BT_DOWN" class="0">
 <segment>
-<pinref part="SW801" gate="G$1" pin="DOWN"/>
+<pinref part="SW100" gate="G$1" pin="DOWN"/>
 <wire x1="58.42" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <label x="38.1" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="124.46" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <junction x="45.72" y="116.84"/>
@@ -11197,10 +11197,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="BT_LEFT" class="0">
 <segment>
-<pinref part="SW801" gate="G$1" pin="LEFT"/>
+<pinref part="SW100" gate="G$1" pin="LEFT"/>
 <wire x1="58.42" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
 <label x="38.1" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="124.46" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
 <junction x="50.8" y="119.38"/>
@@ -11208,10 +11208,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="BT_RIGHT" class="0">
 <segment>
-<pinref part="SW801" gate="G$1" pin="RIGHT"/>
+<pinref part="SW100" gate="G$1" pin="RIGHT"/>
 <wire x1="58.42" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <label x="38.1" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="124.46" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <junction x="55.88" y="121.92"/>
@@ -11219,11 +11219,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="BT_UP" class="0">
 <segment>
-<pinref part="SW801" gate="G$1" pin="UP"/>
+<pinref part="SW100" gate="G$1" pin="UP"/>
 <wire x1="58.42" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <label x="38.1" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="53.34" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="124.46" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <junction x="40.64" y="114.3"/>
@@ -11231,13 +11231,13 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="BT_B" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="2.1"/>
+<pinref part="S101" gate="G$1" pin="2.1"/>
 <wire x1="167.64" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="101.6" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="2.2"/>
+<pinref part="S101" gate="G$1" pin="2.2"/>
 <wire x1="167.64" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="99.06" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <junction x="170.18" y="101.6"/>
 <wire x1="170.18" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <label x="177.8" y="101.6" size="1.27" layer="95" xref="yes"/>
@@ -11245,7 +11245,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="LED1" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D100" gate="G$1" pin="C"/>
 <wire x1="66.04" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
 <label x="60.96" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -11253,8 +11253,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="D100" gate="G$1" pin="A"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SD_CLK" class="0">
@@ -11276,7 +11276,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <pinref part="X701" gate="G$1" pin="SHIELD@1"/>
 <wire x1="167.64" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="154.94" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R714" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="38.1" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="63.5" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <junction x="160.02" y="38.1"/>
@@ -11313,47 +11313,47 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <net name="LCD_D/!S" class="0">
 <segment>
 <wire x1="335.28" y1="185.42" x2="330.2" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="14"/>
+<pinref part="J1" gate="G$1" pin="14"/>
 <label x="330.2" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="G$1" pin="VDD"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="195.58" x2="99.06" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="195.58" x2="101.6" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
 <junction x="99.06" y="195.58"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -11369,10 +11369,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="IC32" gate="G$1" x="172.72" y="162.56"/>
+<instance part="IC4" gate="G$1" x="172.72" y="162.56"/>
 <instance part="GND2" gate="1" x="127" y="175.26" rot="MR0"/>
 <instance part="+3V5" gate="G$1" x="238.76" y="147.32" rot="R270"/>
-<instance part="R4" gate="G$1" x="109.22" y="175.26" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="109.22" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="107.442" y="173.228" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.776" y="173.228" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_FARNELL" x="109.22" y="175.26" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -11380,12 +11380,12 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <attribute name="MPN" x="109.22" y="175.26" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+2V1" gate="G$1" x="109.22" y="187.96"/>
-<instance part="C3" gate="G$1" x="99.06" y="167.64" rot="R90">
+<instance part="C23" gate="G$1" x="99.06" y="167.64" rot="R90">
 <attribute name="OC_FARNELL" x="99.06" y="167.64" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MF" x="99.06" y="167.64" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MPN" x="99.06" y="167.64" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="91.44" y="165.1" rot="R90">
+<instance part="C24" gate="G$1" x="91.44" y="165.1" rot="R90">
 <attribute name="OC_FARNELL" x="91.44" y="165.1" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MF" x="91.44" y="165.1" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MPN" x="91.44" y="165.1" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -11393,46 +11393,46 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="GND5" gate="1" x="83.82" y="162.56" rot="MR0"/>
 <instance part="GND3" gate="1" x="175.26" y="109.22" rot="MR0"/>
 <instance part="GND4" gate="1" x="223.52" y="175.26" rot="MR0"/>
-<instance part="JP1" gate="G$1" x="139.7" y="160.02"/>
-<instance part="JP2" gate="G$1" x="210.82" y="160.02" rot="R180"/>
-<instance part="JP3" gate="G$1" x="175.26" y="127" rot="R90"/>
-<instance part="SJ2" gate="G$1" x="121.92" y="160.02" smashed="yes">
+<instance part="JP3" gate="G$1" x="139.7" y="160.02"/>
+<instance part="JP1" gate="G$1" x="210.82" y="160.02" rot="R180"/>
+<instance part="JP2" gate="G$1" x="175.26" y="127" rot="R90"/>
+<instance part="SJ8" gate="G$1" x="121.92" y="160.02" smashed="yes">
 <attribute name="NAME" x="124.46" y="160.02" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ3" gate="G$1" x="129.54" y="157.48" smashed="yes">
+<instance part="SJ9" gate="G$1" x="129.54" y="157.48" smashed="yes">
 <attribute name="NAME" x="132.08" y="157.48" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ4" gate="G$1" x="121.92" y="154.94" smashed="yes">
+<instance part="SJ10" gate="G$1" x="121.92" y="154.94" smashed="yes">
 <attribute name="NAME" x="124.46" y="154.94" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ5" gate="G$1" x="121.92" y="149.86" smashed="yes">
+<instance part="SJ12" gate="G$1" x="121.92" y="149.86" smashed="yes">
 <attribute name="NAME" x="124.46" y="149.86" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ6" gate="G$1" x="129.54" y="152.4" smashed="yes">
+<instance part="SJ11" gate="G$1" x="129.54" y="152.4" smashed="yes">
 <attribute name="NAME" x="132.08" y="152.4" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ7" gate="G$1" x="129.54" y="147.32" smashed="yes">
+<instance part="SJ13" gate="G$1" x="129.54" y="147.32" smashed="yes">
 <attribute name="NAME" x="132.08" y="147.32" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ8" gate="G$1" x="218.44" y="160.02" smashed="yes">
+<instance part="SJ3" gate="G$1" x="218.44" y="160.02" smashed="yes">
 <attribute name="NAME" x="220.98" y="160.02" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ9" gate="G$1" x="218.44" y="154.94" smashed="yes">
+<instance part="SJ5" gate="G$1" x="218.44" y="154.94" smashed="yes">
 <attribute name="NAME" x="220.98" y="154.94" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ10" gate="G$1" x="213.36" y="152.4" smashed="yes">
+<instance part="SJ6" gate="G$1" x="213.36" y="152.4" smashed="yes">
 <attribute name="NAME" x="215.9" y="152.4" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ11" gate="G$1" x="218.44" y="149.86" smashed="yes">
+<instance part="SJ7" gate="G$1" x="218.44" y="149.86" smashed="yes">
 <attribute name="NAME" x="220.98" y="149.86" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ12" gate="G$1" x="213.36" y="162.56" smashed="yes">
+<instance part="SJ2" gate="G$1" x="213.36" y="162.56" smashed="yes">
 <attribute name="NAME" x="215.9" y="162.56" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ13" gate="G$1" x="213.36" y="170.18" smashed="yes">
+<instance part="SJ1" gate="G$1" x="213.36" y="170.18" smashed="yes">
 <attribute name="NAME" x="215.9" y="170.18" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ14" gate="G$1" x="213.36" y="157.48" smashed="yes">
+<instance part="SJ4" gate="G$1" x="213.36" y="157.48" smashed="yes">
 <attribute name="NAME" x="215.9" y="157.48" size="1.778" layer="95"/>
 </instance>
 </instances>
@@ -11441,10 +11441,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="167.64" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <junction x="83.82" y="165.1"/>
@@ -11454,25 +11454,25 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="134.62" y1="180.34" x2="127" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="127" y1="180.34" x2="127" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="GND"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
 <wire x1="134.62" y1="172.72" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="11"/>
+<pinref part="JP3" gate="G$1" pin="11"/>
 <junction x="149.86" y="172.72"/>
 </segment>
 <segment>
-<pinref part="IC32" gate="G$1" pin="GND2"/>
+<pinref part="IC4" gate="G$1" pin="GND2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="175.26" y1="137.16" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="5"/>
+<pinref part="JP2" gate="G$1" pin="5"/>
 <junction x="175.26" y="137.16"/>
 </segment>
 <segment>
-<pinref part="IC32" gate="G$1" pin="GND3"/>
+<pinref part="IC4" gate="G$1" pin="GND3"/>
 <wire x1="200.66" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="172.72" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <junction x="200.66" y="172.72"/>
 </segment>
 </net>
@@ -11480,11 +11480,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="149.86" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
 <label x="86.36" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 <junction x="109.22" y="170.18"/>
-<pinref part="IC32" gate="G$1" pin="EN"/>
-<pinref part="JP1" gate="G$1" pin="10"/>
+<pinref part="IC4" gate="G$1" pin="EN"/>
+<pinref part="JP3" gate="G$1" pin="10"/>
 <junction x="149.86" y="170.18"/>
 </segment>
 </net>
@@ -11492,22 +11492,22 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="180.34" y1="137.16" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
 <label x="180.34" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO0"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="IC4" gate="G$1" pin="IO0"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
 <junction x="180.34" y="137.16"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="+2V1" gate="G$1" pin="+3V3"/>
 <wire x1="109.22" y1="180.34" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC32" gate="G$1" pin="3V3"/>
+<pinref part="IC4" gate="G$1" pin="3V3"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="200.66" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="11"/>
+<pinref part="JP1" gate="G$1" pin="11"/>
 <junction x="200.66" y="147.32"/>
 </segment>
 </net>
@@ -11515,8 +11515,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="200.66" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
 <label x="228.6" y="167.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="U0TX"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="IC4" gate="G$1" pin="U0TX"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <junction x="200.66" y="167.64"/>
 </segment>
 </net>
@@ -11524,8 +11524,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="200.66" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
 <label x="228.6" y="165.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="U0RX"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
+<pinref part="IC4" gate="G$1" pin="U0RX"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 <junction x="200.66" y="165.1"/>
 </segment>
 </net>
@@ -11533,13 +11533,13 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="218.44" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
 <label x="228.6" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="SJ10" gate="G$1" pin="2"/>
+<pinref part="SJ6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LCD_CS" class="0">
 <segment>
 <label x="228.6" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="SJ9" gate="G$1" pin="2"/>
+<pinref part="SJ5" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11547,8 +11547,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="165.1" y1="137.16" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
 <label x="165.1" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO14"/>
-<pinref part="JP3" gate="G$1" pin="9"/>
+<pinref part="IC4" gate="G$1" pin="IO14"/>
+<pinref part="JP2" gate="G$1" pin="9"/>
 <junction x="165.1" y="137.16"/>
 </segment>
 </net>
@@ -11556,8 +11556,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="167.64" y1="137.16" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <label x="167.64" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO12"/>
-<pinref part="JP3" gate="G$1" pin="8"/>
+<pinref part="IC4" gate="G$1" pin="IO12"/>
+<pinref part="JP2" gate="G$1" pin="8"/>
 <junction x="167.64" y="137.16"/>
 </segment>
 </net>
@@ -11565,8 +11565,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <label x="170.18" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO13"/>
-<pinref part="JP3" gate="G$1" pin="7"/>
+<pinref part="IC4" gate="G$1" pin="IO13"/>
+<pinref part="JP2" gate="G$1" pin="7"/>
 <junction x="170.18" y="137.16"/>
 </segment>
 </net>
@@ -11574,8 +11574,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="172.72" y1="137.16" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <label x="172.72" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO15"/>
-<pinref part="JP3" gate="G$1" pin="6"/>
+<pinref part="IC4" gate="G$1" pin="IO15"/>
+<pinref part="JP2" gate="G$1" pin="6"/>
 <junction x="172.72" y="137.16"/>
 </segment>
 </net>
@@ -11583,8 +11583,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="177.8" y1="137.16" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <label x="177.8" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO2"/>
-<pinref part="JP3" gate="G$1" pin="4"/>
+<pinref part="IC4" gate="G$1" pin="IO2"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
 <junction x="177.8" y="137.16"/>
 </segment>
 </net>
@@ -11592,8 +11592,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="182.88" y1="137.16" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <label x="182.88" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO4"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="IC4" gate="G$1" pin="IO4"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 <junction x="182.88" y="137.16"/>
 </segment>
 </net>
@@ -11601,190 +11601,190 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="185.42" y1="137.16" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="185.42" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC32" gate="G$1" pin="IO16"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="IO16"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <junction x="185.42" y="137.16"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="167.64" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="SVP"/>
-<pinref part="JP1" gate="G$1" pin="9"/>
+<pinref part="IC4" gate="G$1" pin="SVP"/>
+<pinref part="JP3" gate="G$1" pin="9"/>
 <junction x="149.86" y="167.64"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="165.1" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="SVN"/>
-<pinref part="JP1" gate="G$1" pin="8"/>
+<pinref part="IC4" gate="G$1" pin="SVN"/>
+<pinref part="JP3" gate="G$1" pin="8"/>
 <junction x="149.86" y="165.1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO27"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="IO27"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
 <junction x="149.86" y="147.32"/>
-<pinref part="SJ7" gate="G$1" pin="2"/>
+<pinref part="SJ13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO26"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="IC4" gate="G$1" pin="IO26"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
 <junction x="149.86" y="149.86"/>
-<pinref part="SJ5" gate="G$1" pin="2"/>
+<pinref part="SJ12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO25"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="IC4" gate="G$1" pin="IO25"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="149.86" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
 <junction x="149.86" y="152.4"/>
-<pinref part="SJ6" gate="G$1" pin="2"/>
+<pinref part="SJ11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO33"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="IC4" gate="G$1" pin="IO33"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
 <wire x1="149.86" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <junction x="149.86" y="154.94"/>
-<pinref part="SJ4" gate="G$1" pin="2"/>
+<pinref part="SJ10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO32"/>
-<pinref part="JP1" gate="G$1" pin="5"/>
+<pinref part="IC4" gate="G$1" pin="IO32"/>
+<pinref part="JP3" gate="G$1" pin="5"/>
 <wire x1="149.86" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 <junction x="149.86" y="157.48"/>
-<pinref part="SJ3" gate="G$1" pin="2"/>
+<pinref part="SJ9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO35"/>
-<pinref part="JP1" gate="G$1" pin="6"/>
+<pinref part="IC4" gate="G$1" pin="IO35"/>
+<pinref part="JP3" gate="G$1" pin="6"/>
 <wire x1="149.86" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
 <junction x="149.86" y="160.02"/>
-<pinref part="SJ2" gate="G$1" pin="2"/>
+<pinref part="SJ8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO34"/>
-<pinref part="JP1" gate="G$1" pin="7"/>
+<pinref part="IC4" gate="G$1" pin="IO34"/>
+<pinref part="JP3" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO21"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="IC4" gate="G$1" pin="IO21"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="170.18" x2="208.28" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="SJ13" gate="G$1" pin="1"/>
+<pinref part="SJ1" gate="G$1" pin="1"/>
 <junction x="200.66" y="170.18"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO22"/>
-<pinref part="JP2" gate="G$1" pin="5"/>
+<pinref part="IC4" gate="G$1" pin="IO22"/>
+<pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="200.66" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="SJ12" gate="G$1" pin="1"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
 <junction x="200.66" y="162.56"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="IO23"/>
-<pinref part="JP2" gate="G$1" pin="7"/>
+<pinref part="IC4" gate="G$1" pin="IO23"/>
+<pinref part="JP1" gate="G$1" pin="7"/>
 <wire x1="200.66" y1="157.48" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SJ14" gate="G$1" pin="1"/>
+<pinref part="SJ4" gate="G$1" pin="1"/>
 <junction x="200.66" y="157.48"/>
 </segment>
 </net>
 <net name="BT_LEFT" class="0">
 <segment>
-<pinref part="SJ4" gate="G$1" pin="1"/>
+<pinref part="SJ10" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
 <label x="114.3" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_DOWN" class="0">
 <segment>
-<pinref part="SJ3" gate="G$1" pin="1"/>
+<pinref part="SJ9" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
 <label x="114.3" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_RIGHT" class="0">
 <segment>
-<pinref part="SJ2" gate="G$1" pin="1"/>
+<pinref part="SJ8" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
 <label x="114.3" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_MID" class="0">
 <segment>
-<pinref part="SJ6" gate="G$1" pin="1"/>
+<pinref part="SJ11" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 <label x="114.3" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="SJ8" gate="G$1" pin="1"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="IO19"/>
-<pinref part="JP2" gate="G$1" pin="6"/>
+<pinref part="IC4" gate="G$1" pin="IO19"/>
+<pinref part="JP1" gate="G$1" pin="6"/>
 <junction x="200.66" y="160.02"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="SJ9" gate="G$1" pin="1"/>
+<pinref part="SJ5" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="IO18"/>
-<pinref part="JP2" gate="G$1" pin="8"/>
+<pinref part="IC4" gate="G$1" pin="IO18"/>
+<pinref part="JP1" gate="G$1" pin="8"/>
 <junction x="200.66" y="154.94"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="SJ10" gate="G$1" pin="1"/>
+<pinref part="SJ6" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="152.4" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="IO5"/>
-<pinref part="JP2" gate="G$1" pin="9"/>
+<pinref part="IC4" gate="G$1" pin="IO5"/>
+<pinref part="JP1" gate="G$1" pin="9"/>
 <junction x="200.66" y="152.4"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="SJ11" gate="G$1" pin="1"/>
+<pinref part="SJ7" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="IO17"/>
-<pinref part="JP2" gate="G$1" pin="10"/>
+<pinref part="IC4" gate="G$1" pin="IO17"/>
+<pinref part="JP1" gate="G$1" pin="10"/>
 <junction x="200.66" y="149.86"/>
 </segment>
 </net>
 <net name="LED1" class="0">
 <segment>
-<pinref part="SJ13" gate="G$1" pin="2"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
 <label x="228.6" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_BUSY" class="0">
 <segment>
-<pinref part="SJ12" gate="G$1" pin="2"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="162.56" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
 <label x="228.6" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11792,13 +11792,13 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <net name="LCD_!RESET" class="0">
 <segment>
 <label x="228.6" y="160.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="SJ8" gate="G$1" pin="2"/>
+<pinref part="SJ3" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="160.02" x2="228.6" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LCD_D/!S" class="0">
 <segment>
-<pinref part="SJ14" gate="G$1" pin="2"/>
+<pinref part="SJ4" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
 <label x="228.6" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11806,20 +11806,20 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <net name="LCD_MOSI" class="0">
 <segment>
 <label x="228.6" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="SJ11" gate="G$1" pin="2"/>
+<pinref part="SJ7" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BT_UP" class="0">
 <segment>
-<pinref part="SJ5" gate="G$1" pin="1"/>
+<pinref part="SJ12" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
 <label x="114.3" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_B" class="0">
 <segment>
-<pinref part="SJ7" gate="G$1" pin="1"/>
+<pinref part="SJ13" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
 <label x="114.3" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11833,11 +11833,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
-<instance part="C10" gate="G$1" x="137.16" y="135.89" rot="MR0"/>
-<instance part="C11" gate="G$1" x="132.08" y="137.16"/>
-<instance part="C12" gate="G$1" x="187.96" y="137.16" rot="MR0"/>
-<instance part="C13" gate="G$1" x="193.04" y="135.89" rot="MR0"/>
-<instance part="C14" gate="G$1" x="198.12" y="137.16"/>
+<instance part="C1" gate="G$1" x="137.16" y="135.89" rot="MR0"/>
+<instance part="C8" gate="G$1" x="132.08" y="137.16"/>
+<instance part="C4" gate="G$1" x="187.96" y="137.16" rot="MR0"/>
+<instance part="C5" gate="G$1" x="193.04" y="135.89" rot="MR0"/>
+<instance part="C20" gate="G$1" x="198.12" y="137.16"/>
 <instance part="GND20" gate="1" x="132.08" y="129.54" rot="MR0"/>
 <instance part="GND21" gate="1" x="137.16" y="129.54" rot="MR0"/>
 <instance part="GND22" gate="1" x="157.48" y="129.54" rot="MR0"/>
@@ -11845,15 +11845,15 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="GND25" gate="1" x="193.04" y="129.54" rot="MR0"/>
 <instance part="GND27" gate="1" x="198.12" y="129.54" rot="MR0"/>
 <instance part="+3V2" gate="G$1" x="208.28" y="139.7" rot="R270"/>
-<instance part="C15" gate="G$1" x="182.88" y="137.16" rot="MR0"/>
-<instance part="C16" gate="G$1" x="177.8" y="137.16" rot="MR0"/>
+<instance part="C22" gate="G$1" x="182.88" y="137.16" rot="MR0"/>
+<instance part="C21" gate="G$1" x="177.8" y="137.16" rot="MR0"/>
 <instance part="GND28" gate="1" x="182.88" y="129.54" rot="MR0"/>
 <instance part="GND29" gate="1" x="177.8" y="129.54" rot="MR0"/>
-<instance part="IC2" gate="G$1" x="157.48" y="139.7"/>
+<instance part="IC1" gate="G$1" x="157.48" y="139.7"/>
 <instance part="P+1" gate="1" x="121.92" y="139.7" rot="R90"/>
-<instance part="IC3" gate="G$1" x="157.48" y="119.38"/>
+<instance part="IC2" gate="G$1" x="157.48" y="119.38"/>
 <instance part="GND1" gate="1" x="157.48" y="109.22" rot="MR0"/>
-<instance part="C5" gate="G$1" x="127" y="137.16"/>
+<instance part="C3" gate="G$1" x="127" y="137.16"/>
 <instance part="GND14" gate="1" x="127" y="129.54" rot="MR0"/>
 </instances>
 <busses>
@@ -11861,43 +11861,43 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="ADJ"/>
+<pinref part="IC2" gate="G$1" pin="ADJ"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -11905,29 +11905,29 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <wire x1="175.26" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <junction x="187.96" y="139.7"/>
 <wire x1="177.8" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <junction x="193.04" y="139.7"/>
 <wire x1="193.04" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <junction x="198.12" y="139.7"/>
 <wire x1="198.12" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <junction x="182.88" y="139.7"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <junction x="177.8" y="139.7"/>
 <wire x1="170.18" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="165.1" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OUT@1"/>
+<pinref part="IC2" gate="G$1" pin="OUT@1"/>
 <wire x1="165.1" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="116.84" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
+<pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="170.18" y1="119.38" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
 <junction x="170.18" y="119.38"/>
@@ -11936,21 +11936,21 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <net name="+5V" class="2">
 <segment>
 <wire x1="142.24" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="139.7" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
 <junction x="137.16" y="139.7"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
 <junction x="132.08" y="139.7"/>
 <wire x1="127" y1="139.7" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="144.78" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="139.7" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="IN"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
 <wire x1="144.78" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <junction x="127" y="139.7"/>
 </segment>
 </net>
