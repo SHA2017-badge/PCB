@@ -369,12 +369,6 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf. Spark Fun Electronics SKU : C
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCC">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="VDD">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -415,19 +409,6 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf. Spark Fun Electronics SKU : C
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -10401,7 +10382,6 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="R714" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603"/>
@@ -10417,6 +10397,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="VDD5" library="supply1" deviceset="VDD" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10515,9 +10500,6 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="GND59" gate="1" x="160.02" y="22.86" smashed="yes">
 <attribute name="VALUE" x="160.02" y="21.59" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+14" gate="VCC" x="162.56" y="76.2" smashed="yes">
-<attribute name="VALUE" x="163.83" y="76.835" size="1.778" layer="96"/>
-</instance>
 <instance part="R714" gate="G$1" x="160.02" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="152.273" y="69.0626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.273" y="66.548" size="1.778" layer="96"/>
@@ -10534,6 +10516,11 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="VDD4" gate="G$1" x="147.32" y="147.32" rot="R180"/>
 <instance part="GND15" gate="1" x="86.36" y="220.98" rot="MR0"/>
 <instance part="VDD5" gate="G$1" x="154.94" y="203.2" rot="R270"/>
+<instance part="+3V7" gate="G$1" x="162.56" y="76.2"/>
+<instance part="C6" gate="G$1" x="60.96" y="134.62"/>
+<instance part="GND16" gate="1" x="60.96" y="127" rot="MR0"/>
+<instance part="C7" gate="G$1" x="165.1" y="71.12"/>
+<instance part="GND17" gate="1" x="165.1" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -10740,6 +10727,14 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <wire x1="86.36" y1="226.06" x2="86.36" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="2">
 <segment>
@@ -10921,6 +10916,10 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <junction x="45.72" y="137.16"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
+<junction x="50.8" y="137.16"/>
+<junction x="55.88" y="137.16"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -10939,6 +10938,17 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="+2V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="X701" gate="G$1" pin="VCC"/>
+<wire x1="162.56" y1="73.66" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R714" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<junction x="162.56" y="73.66"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GDR" class="0">
@@ -11245,17 +11255,6 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="VCC" class="1">
-<segment>
-<pinref part="P+14" gate="VCC" pin="VCC"/>
-<pinref part="X701" gate="G$1" pin="VCC"/>
-<wire x1="162.56" y1="73.66" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R714" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<junction x="162.56" y="73.66"/>
 </segment>
 </net>
 <net name="SD_CLK" class="0">
@@ -11712,20 +11711,6 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <junction x="200.66" y="157.48"/>
 </segment>
 </net>
-<net name="BT_B" class="0">
-<segment>
-<pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<label x="114.3" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BT_UP" class="0">
-<segment>
-<pinref part="SJ3" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<label x="114.3" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="BT_LEFT" class="0">
 <segment>
 <pinref part="SJ4" gate="G$1" pin="1"/>
@@ -11735,23 +11720,23 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </net>
 <net name="BT_DOWN" class="0">
 <segment>
-<pinref part="SJ6" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
-<label x="114.3" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
+<label x="114.3" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_RIGHT" class="0">
 <segment>
-<pinref part="SJ5" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
-<label x="114.3" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
+<label x="114.3" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_MID" class="0">
 <segment>
-<pinref part="SJ7" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
-<label x="114.3" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ6" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
+<label x="114.3" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -11823,6 +11808,20 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <label x="228.6" y="149.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="SJ11" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BT_UP" class="0">
+<segment>
+<pinref part="SJ5" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
+<label x="114.3" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BT_B" class="0">
+<segment>
+<pinref part="SJ7" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
+<label x="114.3" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
