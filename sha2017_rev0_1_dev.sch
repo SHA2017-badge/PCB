@@ -10233,6 +10233,46 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10254,7 +10294,7 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="2u2/16V"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="PMEG4005EJ"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="SD05-7"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
@@ -10402,6 +10442,31 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="FD4" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="FD3" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="FD1" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="FD2" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="FD5" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -10521,6 +10586,31 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <instance part="GND16" gate="1" x="60.96" y="127" rot="MR0"/>
 <instance part="C15" gate="G$1" x="165.1" y="71.12"/>
 <instance part="GND17" gate="1" x="165.1" y="63.5"/>
+<instance part="FD4" gate="G$1" x="16.51" y="10.16">
+<attribute name="OC_FARNELL" x="16.51" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="16.51" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="16.51" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="FD3" gate="G$1" x="25.4" y="10.16">
+<attribute name="OC_FARNELL" x="25.4" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="25.4" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="25.4" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="FD1" gate="G$1" x="34.29" y="10.16">
+<attribute name="OC_FARNELL" x="34.29" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="34.29" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="34.29" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="FD2" gate="G$1" x="43.18" y="10.16">
+<attribute name="OC_FARNELL" x="43.18" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="43.18" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="43.18" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="FD5" gate="G$1" x="50.8" y="10.16">
+<attribute name="OC_FARNELL" x="50.8" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="50.8" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="50.8" y="10.16" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
