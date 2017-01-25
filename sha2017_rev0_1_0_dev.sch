@@ -7990,6 +7990,9 @@ Source: AVX .. aphvc.pdf</description>
 <text x="6.45" y="-4.31" size="1.27" layer="21">-</text>
 <text x="6.35" y="-6.35" size="1.27" layer="21">+</text>
 </package>
+<package name="VIA">
+<pad name="P$1" x="0" y="0" drill="0.4" diameter="0.7048" stop="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="78XX">
@@ -8116,6 +8119,11 @@ Source: AVX .. aphvc.pdf</description>
 <text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="+" x="0" y="5.08" visible="off" length="point" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="point" rot="R270"/>
+</symbol>
+<symbol name="VIA">
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8270,6 +8278,21 @@ Physical dimension and wire connections for this powerful vibration motor. Motor
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VIA">
+<gates>
+<gate name="G$1" symbol="VIA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VIA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11076,6 +11099,58 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="J3" library="EAGLE-BOARD-TO-BOARD_CONNECTORS-rev16c" deviceset="610X12243021" device=""/>
+<part name="U$2" library="badge" deviceset="VIA" device=""/>
+<part name="U$3" library="badge" deviceset="VIA" device=""/>
+<part name="U$4" library="badge" deviceset="VIA" device=""/>
+<part name="U$5" library="badge" deviceset="VIA" device=""/>
+<part name="U$6" library="badge" deviceset="VIA" device=""/>
+<part name="U$10" library="badge" deviceset="VIA" device=""/>
+<part name="U$11" library="badge" deviceset="VIA" device=""/>
+<part name="U$12" library="badge" deviceset="VIA" device=""/>
+<part name="U$13" library="badge" deviceset="VIA" device=""/>
+<part name="U$14" library="badge" deviceset="VIA" device=""/>
+<part name="U$15" library="badge" deviceset="VIA" device=""/>
+<part name="U$16" library="badge" deviceset="VIA" device=""/>
+<part name="U$17" library="badge" deviceset="VIA" device=""/>
+<part name="U$18" library="badge" deviceset="VIA" device=""/>
+<part name="U$19" library="badge" deviceset="VIA" device=""/>
+<part name="U$20" library="badge" deviceset="VIA" device=""/>
+<part name="GND62" library="supply1" deviceset="GND" device=""/>
+<part name="GND63" library="supply1" deviceset="GND" device=""/>
+<part name="GND64" library="supply1" deviceset="GND" device=""/>
+<part name="GND65" library="supply1" deviceset="GND" device=""/>
+<part name="GND66" library="supply1" deviceset="GND" device=""/>
+<part name="GND67" library="supply1" deviceset="GND" device=""/>
+<part name="GND68" library="supply1" deviceset="GND" device=""/>
+<part name="GND69" library="supply1" deviceset="GND" device=""/>
+<part name="GND70" library="supply1" deviceset="GND" device=""/>
+<part name="GND71" library="supply1" deviceset="GND" device=""/>
+<part name="GND72" library="supply1" deviceset="GND" device=""/>
+<part name="GND73" library="supply1" deviceset="GND" device=""/>
+<part name="GND74" library="supply1" deviceset="GND" device=""/>
+<part name="GND75" library="supply1" deviceset="GND" device=""/>
+<part name="GND76" library="supply1" deviceset="GND" device=""/>
+<part name="U$21" library="badge" deviceset="VIA" device=""/>
+<part name="U$22" library="badge" deviceset="VIA" device=""/>
+<part name="U$23" library="badge" deviceset="VIA" device=""/>
+<part name="U$24" library="badge" deviceset="VIA" device=""/>
+<part name="U$25" library="badge" deviceset="VIA" device=""/>
+<part name="U$26" library="badge" deviceset="VIA" device=""/>
+<part name="GND77" library="supply1" deviceset="GND" device=""/>
+<part name="GND78" library="supply1" deviceset="GND" device=""/>
+<part name="GND79" library="supply1" deviceset="GND" device=""/>
+<part name="GND80" library="supply1" deviceset="GND" device=""/>
+<part name="GND81" library="supply1" deviceset="GND" device=""/>
+<part name="U$27" library="badge" deviceset="VIA" device=""/>
+<part name="U$28" library="badge" deviceset="VIA" device=""/>
+<part name="U$29" library="badge" deviceset="VIA" device=""/>
+<part name="U$30" library="badge" deviceset="VIA" device=""/>
+<part name="U$31" library="badge" deviceset="VIA" device=""/>
+<part name="GND82" library="supply1" deviceset="GND" device=""/>
+<part name="GND83" library="supply1" deviceset="GND" device=""/>
+<part name="GND84" library="supply1" deviceset="GND" device=""/>
+<part name="GND85" library="supply1" deviceset="GND" device=""/>
+<part name="GND86" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11288,6 +11363,58 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S1" gate="G$1" x="177.8" y="154.94"/>
 <instance part="S2" gate="G$1" x="177.8" y="147.32"/>
 <instance part="GND60" gate="1" x="170.18" y="142.24"/>
+<instance part="U$2" gate="G$1" x="66.04" y="55.88"/>
+<instance part="U$3" gate="G$1" x="15.24" y="38.1"/>
+<instance part="U$4" gate="G$1" x="27.94" y="38.1"/>
+<instance part="U$5" gate="G$1" x="40.64" y="38.1"/>
+<instance part="U$6" gate="G$1" x="53.34" y="38.1"/>
+<instance part="U$10" gate="G$1" x="66.04" y="38.1"/>
+<instance part="U$11" gate="G$1" x="15.24" y="55.88"/>
+<instance part="U$12" gate="G$1" x="27.94" y="55.88"/>
+<instance part="U$13" gate="G$1" x="40.64" y="55.88"/>
+<instance part="U$14" gate="G$1" x="53.34" y="55.88"/>
+<instance part="U$15" gate="G$1" x="15.24" y="73.66"/>
+<instance part="U$16" gate="G$1" x="27.94" y="73.66"/>
+<instance part="U$17" gate="G$1" x="40.64" y="73.66"/>
+<instance part="U$18" gate="G$1" x="53.34" y="73.66"/>
+<instance part="U$19" gate="G$1" x="66.04" y="73.66"/>
+<instance part="U$20" gate="G$1" x="66.04" y="73.66"/>
+<instance part="GND62" gate="1" x="15.24" y="63.5" rot="MR0"/>
+<instance part="GND63" gate="1" x="27.94" y="63.5" rot="MR0"/>
+<instance part="GND64" gate="1" x="40.64" y="63.5" rot="MR0"/>
+<instance part="GND65" gate="1" x="53.34" y="63.5" rot="MR0"/>
+<instance part="GND66" gate="1" x="66.04" y="63.5" rot="MR0"/>
+<instance part="GND67" gate="1" x="15.24" y="45.72" rot="MR0"/>
+<instance part="GND68" gate="1" x="27.94" y="45.72" rot="MR0"/>
+<instance part="GND69" gate="1" x="40.64" y="45.72" rot="MR0"/>
+<instance part="GND70" gate="1" x="53.34" y="45.72" rot="MR0"/>
+<instance part="GND71" gate="1" x="66.04" y="45.72" rot="MR0"/>
+<instance part="GND72" gate="1" x="66.04" y="27.94" rot="MR0"/>
+<instance part="GND73" gate="1" x="53.34" y="27.94" rot="MR0"/>
+<instance part="GND74" gate="1" x="40.64" y="27.94" rot="MR0"/>
+<instance part="GND75" gate="1" x="27.94" y="27.94" rot="MR0"/>
+<instance part="GND76" gate="1" x="15.24" y="27.94" rot="MR0"/>
+<instance part="U$21" gate="G$1" x="15.24" y="88.9"/>
+<instance part="U$22" gate="G$1" x="27.94" y="88.9"/>
+<instance part="U$23" gate="G$1" x="40.64" y="88.9"/>
+<instance part="U$24" gate="G$1" x="53.34" y="88.9"/>
+<instance part="U$25" gate="G$1" x="53.34" y="88.9"/>
+<instance part="U$26" gate="G$1" x="66.04" y="88.9"/>
+<instance part="GND77" gate="1" x="15.24" y="78.74" rot="MR0"/>
+<instance part="GND78" gate="1" x="27.94" y="78.74" rot="MR0"/>
+<instance part="GND79" gate="1" x="40.64" y="78.74" rot="MR0"/>
+<instance part="GND80" gate="1" x="53.34" y="78.74" rot="MR0"/>
+<instance part="GND81" gate="1" x="66.04" y="78.74" rot="MR0"/>
+<instance part="U$27" gate="G$1" x="15.24" y="106.68"/>
+<instance part="U$28" gate="G$1" x="27.94" y="106.68"/>
+<instance part="U$29" gate="G$1" x="40.64" y="106.68"/>
+<instance part="U$30" gate="G$1" x="53.34" y="106.68"/>
+<instance part="U$31" gate="G$1" x="66.04" y="106.68"/>
+<instance part="GND82" gate="1" x="15.24" y="96.52" rot="MR0"/>
+<instance part="GND83" gate="1" x="27.94" y="96.52" rot="MR0"/>
+<instance part="GND84" gate="1" x="40.64" y="96.52" rot="MR0"/>
+<instance part="GND85" gate="1" x="53.34" y="96.52" rot="MR0"/>
+<instance part="GND86" gate="1" x="66.04" y="96.52" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -11465,6 +11592,112 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="170.18" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <junction x="170.18" y="147.32"/>
 <pinref part="GND60" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$15" gate="G$1" pin="P$1"/>
+<pinref part="GND62" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="GND63" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="P$1"/>
+<pinref part="GND64" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="P$1"/>
+<pinref part="GND65" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<pinref part="U$20" gate="G$1" pin="P$1"/>
+<pinref part="GND66" gate="1" pin="GND"/>
+<junction x="66.04" y="66.04"/>
+<pinref part="GND66" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="GND67" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="P$1"/>
+<pinref part="GND68" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="P$1"/>
+<pinref part="GND69" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<pinref part="GND70" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="GND71" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="GND72" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="GND73" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="GND74" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="GND75" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="GND76" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$21" gate="G$1" pin="P$1"/>
+<pinref part="GND77" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$1"/>
+<pinref part="GND78" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="P$1"/>
+<pinref part="GND79" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$1"/>
+<pinref part="U$25" gate="G$1" pin="P$1"/>
+<pinref part="GND80" gate="1" pin="GND"/>
+<junction x="53.34" y="81.28"/>
+<pinref part="GND80" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$26" gate="G$1" pin="P$1"/>
+<pinref part="GND81" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$27" gate="G$1" pin="P$1"/>
+<pinref part="GND82" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$28" gate="G$1" pin="P$1"/>
+<pinref part="GND83" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$29" gate="G$1" pin="P$1"/>
+<pinref part="GND84" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$30" gate="G$1" pin="P$1"/>
+<pinref part="GND85" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$31" gate="G$1" pin="P$1"/>
+<pinref part="GND86" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="2">
