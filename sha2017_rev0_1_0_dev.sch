@@ -8695,6 +8695,20 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
 <circle x="0" y="0" radius="0.381" width="0" layer="30"/>
 </package>
+<package name="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -8717,6 +8731,18 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
 <pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
+<symbol name="PAD-JUMPER-2-NC_BY_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9041,6 +9067,22 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <device name="TP_15TH_THRU" package="TP_15TH">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-PAD-2-NC_BY_TRACE" prefix="SJ">
+<gates>
+<gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11219,6 +11261,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D9" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G">
 <attribute name="PARTNO" value="BAT20JFILM"/>
 </part>
+<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11486,6 +11530,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND92" gate="1" x="160.02" y="99.06" rot="MR0"/>
 <instance part="D9" gate="G$1" x="129.54" y="33.02" rot="R180">
 <attribute name="PARTNO" x="129.54" y="33.02" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
+<instance part="SJ2" gate="G$1" x="142.24" y="60.96" smashed="yes">
+<attribute name="NAME" x="144.78" y="60.96" size="1.778" layer="95"/>
+</instance>
+<instance part="SJ3" gate="G$1" x="144.78" y="45.72" smashed="yes">
+<attribute name="NAME" x="147.32" y="45.72" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -12195,23 +12245,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="160.02" y="38.1"/>
 </segment>
 </net>
-<net name="SD_DATA2" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="NC"/>
-<wire x1="167.64" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="127" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="63.5" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
-<junction x="154.94" y="60.96"/>
-</segment>
-</net>
 <net name="SD_DATA0" class="0">
 <segment>
-<pinref part="X2" gate="G$1" pin="DO"/>
-<wire x1="167.64" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="127" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="116.84" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<label x="114.3" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="63.5" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
 <junction x="134.62" y="45.72"/>
@@ -12219,17 +12258,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D9" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="33.02" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SD_DATA1" class="0">
 <segment>
+<wire x1="116.84" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+<label x="114.3" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="X2" gate="G$1" pin="RSV"/>
 <wire x1="167.64" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
-<label x="127" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="63.5" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <junction x="129.54" y="43.18"/>
+<wire x1="116.84" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_DATA3" class="0">
@@ -12372,6 +12415,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="271.78" y1="78.74" x2="271.78" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="DO"/>
+<wire x1="167.64" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="SD_DATA2_OUT" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="NC"/>
+<wire x1="167.64" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="63.5" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
+<junction x="154.94" y="60.96"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="SD_DATA2" class="0">
+<segment>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
+<label x="127" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -12758,13 +12827,6 @@ flash</text>
 <label x="147.32" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SD_DATA2" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="IO12"/>
-<label x="147.32" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="147.32" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SD2"/>
@@ -13085,6 +13147,13 @@ flash</text>
 <pinref part="TP138" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="127" x2="307.34" y2="127" width="0.1524" layer="91"/>
 <label x="307.34" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SD_DATA2" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="IO12"/>
+<wire x1="157.48" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<label x="147.32" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
