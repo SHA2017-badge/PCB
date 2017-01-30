@@ -9160,6 +9160,10 @@ by exp-lbrs.ulp</description>
 <attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
 </part>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
+<part name="C44" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<attribute name="PARTNO" value="GRM188R71H104KA93D"/>
+</part>
+<part name="GND97" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9479,6 +9483,10 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="147.32" y="40.64" size="1.778" layer="95"/>
 <attribute name="PARTNO" x="144.78" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C44" gate="G$1" x="172.72" y="69.85">
+<attribute name="PARTNO" x="172.72" y="69.85" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="GND97" gate="1" x="172.72" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -9677,6 +9685,10 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="C38" gate="G$1" pin="2"/>
 <pinref part="GND57" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C44" gate="G$1" pin="2"/>
+<pinref part="GND97" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -10325,6 +10337,9 @@ by exp-lbrs.ulp</description>
 <junction x="149.86" y="73.66"/>
 <junction x="154.94" y="73.66"/>
 <junction x="160.02" y="73.66"/>
+<pinref part="C44" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="165.1" y="73.66"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
