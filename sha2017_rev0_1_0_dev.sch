@@ -9165,6 +9165,10 @@ by exp-lbrs.ulp</description>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="YES_SILK">
 <attribute name="PARTNO" value="NAP"/>
 </part>
+<part name="C43" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V">
+<attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
+</part>
+<part name="GND96" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12051,6 +12055,10 @@ flash</text>
 <attribute name="PARTNO" x="63.5" y="144.78" size="5.08" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND95" gate="1" x="63.5" y="142.24"/>
+<instance part="C43" gate="G$1" x="83.82" y="147.32">
+<attribute name="PARTNO" x="83.82" y="147.32" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="GND96" gate="1" x="83.82" y="139.7"/>
 </instances>
 <busses>
 </busses>
@@ -12098,10 +12106,13 @@ flash</text>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="VDD"/>
+<wire x1="83.82" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
 <junction x="88.9" y="149.86"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<junction x="83.82" y="149.86"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
@@ -12228,6 +12239,10 @@ flash</text>
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
 <pinref part="GND95" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="GND96" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="TOUCH_INT" class="0">
