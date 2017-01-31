@@ -9164,6 +9164,10 @@ by exp-lbrs.ulp</description>
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
+<part name="U$23" library="badge" deviceset="VIA" device="">
+<attribute name="PARTNO" value="NAP"/>
+</part>
+<part name="GND98" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12047,6 +12051,10 @@ flash</text>
 <attribute name="PARTNO" x="83.82" y="147.32" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND96" gate="1" x="83.82" y="139.7"/>
+<instance part="U$23" gate="G$1" x="83.82" y="27.94">
+<attribute name="PARTNO" x="83.82" y="27.94" size="5.08" layer="96" display="off"/>
+</instance>
+<instance part="GND98" gate="1" x="83.82" y="17.78" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -12231,6 +12239,10 @@ flash</text>
 <segment>
 <pinref part="C43" gate="G$1" pin="2"/>
 <pinref part="GND96" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="P$1"/>
+<pinref part="GND98" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="TOUCH_INT" class="0">
