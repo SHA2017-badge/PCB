@@ -5893,8 +5893,6 @@ you by:</text>
 <rectangle x1="55.449" y1="38.8814" x2="55.4978" y2="38.9058" layer="26" rot="R180"/>
 <rectangle x1="55.4002" y1="38.8814" x2="55.4246" y2="38.9058" layer="26" rot="R180"/>
 <rectangle x1="55.327" y1="38.8814" x2="55.3514" y2="38.9058" layer="26" rot="R180"/>
-<dimension x1="10" y1="-1" x2="85" y2="-1" x3="47.5" y3="-11.2972" textsize="2.54" layer="26" visible="yes"/>
-<dimension x1="10" y1="-1" x2="47.5068" y2="-1.0004" x3="28.754553125" y3="107.23805625" textsize="2.54" layer="26" visible="yes"/>
 <text x="46.3112" y="6.6368" size="2.54" layer="26" font="vector" ratio="15" rot="MR45" align="top-center">Select</text>
 <text x="32.2568" y="6.6856" size="2.54" layer="26" font="vector" ratio="15" rot="MR45" align="top-center">Start</text>
 <text x="15.86" y="16.4456" size="2.54" layer="26" font="vector" ratio="15" rot="MR45" align="top-center">B</text>
