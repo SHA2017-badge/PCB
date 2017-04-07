@@ -8434,8 +8434,8 @@ by exp-lbrs.ulp</description>
 <attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
 </part>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA">
-<attribute name="PARTNO" value="0ZCJ0025FF2E"/>
+<part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="900mA">
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="SD05-7">
 <attribute name="PARTNO" value="SD05-7"/>
@@ -8720,8 +8720,8 @@ by exp-lbrs.ulp</description>
 <part name="R11" library="00ralf" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="F2" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA">
-<attribute name="PARTNO" value="0ZCJ0025FF2E"/>
+<part name="F2" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="900mA">
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
@@ -8747,8 +8747,8 @@ by exp-lbrs.ulp</description>
 <part name="C23" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="T1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="BSS316N H6327">
-<attribute name="PARTNO" value="726-BSS316NH6327XT"/>
+<part name="T1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="">
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="R4" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
@@ -8858,13 +8858,13 @@ by exp-lbrs.ulp</description>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="badge" deviceset="MOTOR" device="10MM"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="R24" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="470R">
+<part name="R24" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="4k7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="R23" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="470R">
+<part name="R23" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="4k7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -9171,11 +9171,11 @@ by exp-lbrs.ulp</description>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V">
 <attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
 </part>
-<part name="T2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="BSS316N H6327">
-<attribute name="PARTNO" value="726-BSS316NH6327XT"/>
+<part name="T2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="">
+<attribute name="PARTNO" value=""/>
 </part>
-<part name="T3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="BSS316N H6327">
-<attribute name="PARTNO" value="726-BSS316NH6327XT"/>
+<part name="T3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="">
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3">
 <attribute name="PARTNO" value="NAP"/>
