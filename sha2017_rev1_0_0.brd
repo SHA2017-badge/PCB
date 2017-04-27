@@ -9693,9 +9693,12 @@ design rules under a new name.</description>
 <wire x1="49.5405" y1="20.5405" x2="51.2" y2="22.2" width="0.254" layer="1"/>
 <wire x1="51.2" y1="22.2" x2="51.2" y2="21.21575" width="0.254" layer="16"/>
 <wire x1="51.2" y1="21.21575" x2="46.65075" y2="16.6665" width="0.254" layer="16"/>
+<wire x1="42.307" y1="24.005" x2="41.4365" y2="24.005" width="0.254" layer="16"/>
+<wire x1="41.4365" y1="24.005" x2="38.5425" y2="26.899" width="0.254" layer="16"/>
+<wire x1="40.48875" y1="20.61775" x2="38.61775" y2="20.61775" width="0.254" layer="16"/>
+<wire x1="38.61775" y1="20.61775" x2="35.9" y2="17.9" width="0.254" layer="16"/>
 <wire x1="81.6" y1="60.8" x2="80.2" y2="60.85" width="0" layer="19" extent="1-1"/>
 <wire x1="80.2" y1="56.35" x2="81.4" y2="56.9" width="0" layer="19" extent="1-1"/>
-<wire x1="40.48875" y1="20.61775" x2="42.307" y2="24.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_DN_CON">
 <contactref element="USB1" pad="2"/>
