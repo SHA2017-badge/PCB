@@ -10572,10 +10572,10 @@ design rules under a new name.</description>
 <wire x1="44.8" y1="42.7" x2="44.8" y2="40" width="0.254" layer="1"/>
 <wire x1="44.8" y1="40" x2="47.8" y2="37" width="0.254" layer="1"/>
 <wire x1="47.8" y1="37" x2="47.8" y2="31" width="0.254" layer="1"/>
-<wire x1="47.8" y1="31" x2="46.3" y2="29.5" width="0.254" layer="1"/>
+<wire x1="47.8" y1="31" x2="46.4" y2="29.6" width="0.254" layer="1"/>
 <contactref element="U1" pad="19"/>
-<wire x1="46.3" y1="29.5" x2="44.0302625" y2="29.5" width="0.254" layer="1"/>
-<wire x1="44.0302625" y1="29.5" x2="43.040378125" y2="28.510115625" width="0.254" layer="1"/>
+<wire x1="46.4" y1="29.6" x2="44.1302625" y2="29.6" width="0.254" layer="1"/>
+<wire x1="44.1302625" y1="29.6" x2="43.040378125" y2="28.510115625" width="0.254" layer="1"/>
 </signal>
 <signal name="SD_DATA0">
 <contactref element="IC3" pad="24"/>
@@ -11794,15 +11794,15 @@ design rules under a new name.</description>
 <wire x1="27.6" y1="52.7" x2="25.2" y2="52.7" width="0.3048" layer="16"/>
 <wire x1="25.2" y1="52.7" x2="24.9" y2="53" width="0.3048" layer="16"/>
 <wire x1="24.9" y1="53" x2="24.7024" y2="53" width="0.3048" layer="16"/>
-<wire x1="46.7" y1="29" x2="48.5" y2="30.8" width="0.254" layer="1"/>
+<wire x1="46.8" y1="29.1" x2="48.5" y2="30.8" width="0.254" layer="1"/>
 <wire x1="48.5" y1="30.8" x2="48.5" y2="37.2" width="0.254" layer="1"/>
 <wire x1="48.5" y1="37.2" x2="46.1" y2="39.6" width="0.254" layer="1"/>
 <wire x1="46.1" y1="39.6" x2="46.1" y2="42.6" width="0.254" layer="1"/>
 <wire x1="46.1" y1="42.6" x2="46.2" y2="42.7" width="0.254" layer="1"/>
 <contactref element="U1" pad="18"/>
 <wire x1="43.327746875" y1="28.222746875" x2="43.327746875" y2="28.227746875" width="0.254" layer="1"/>
-<wire x1="43.327746875" y1="28.227746875" x2="44.1" y2="29" width="0.254" layer="1"/>
-<wire x1="44.1" y1="29" x2="46.7" y2="29" width="0.254" layer="1"/>
+<wire x1="43.327746875" y1="28.227746875" x2="44.2" y2="29.1" width="0.254" layer="1"/>
+<wire x1="44.2" y1="29.1" x2="46.8" y2="29.1" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="Q2" pad="3"/>
