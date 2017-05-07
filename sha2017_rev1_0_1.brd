@@ -6767,8 +6767,8 @@
 <rectangle x1="40.562" y1="47.13085" x2="41.4486" y2="47.17115" layer="21"/>
 <rectangle x1="42.4964" y1="47.13085" x2="43.3426" y2="47.17115" layer="21"/>
 <rectangle x1="44.3905" y1="47.13085" x2="45.2368" y2="47.17115" layer="21"/>
-<hole x="42.4" y="53" drill="1.8"/>
-<hole x="52.6" y="53" drill="1.8"/>
+<hole x="42.42" y="53" drill="1.8"/>
+<hole x="52.58" y="53" drill="1.8"/>
 </plain>
 <libraries>
 <library name="SparkFun-DigitalIC">
