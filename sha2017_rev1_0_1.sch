@@ -11596,6 +11596,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="C46" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<attribute name="PARTNO" value="GRM188R61E105KA12D"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11735,7 +11738,7 @@ DEPG0290B01: Do not populate R26</text>
 <instance part="GND33" gate="1" x="345.44" y="165.1"/>
 <instance part="GND34" gate="1" x="345.44" y="213.36"/>
 <instance part="GND35" gate="1" x="337.82" y="205.74"/>
-<instance part="+3V1" gate="G$1" x="337.82" y="193.04" rot="R90"/>
+<instance part="+3V1" gate="G$1" x="332.74" y="193.04" rot="R90"/>
 <instance part="C39" gate="G$1" x="345.44" y="189.23" rot="MR0">
 <attribute name="PARTNO" x="345.44" y="189.23" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -12000,6 +12003,9 @@ DEPG0290B01: Do not populate R26</text>
 </instance>
 <instance part="+3V11" gate="G$1" x="299.72" y="248.92"/>
 <instance part="GND36" gate="1" x="317.5" y="228.6"/>
+<instance part="C46" gate="G$1" x="340.36" y="189.23" rot="MR0">
+<attribute name="PARTNO" x="340.36" y="189.23" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12103,6 +12109,8 @@ DEPG0290B01: Do not populate R26</text>
 <wire x1="345.44" y1="185.42" x2="345.44" y2="180.34" width="0.1524" layer="91"/>
 <junction x="345.44" y="185.42"/>
 <junction x="345.44" y="180.34"/>
+<pinref part="C46" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="185.42" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -12391,6 +12399,10 @@ DEPG0290B01: Do not populate R26</text>
 <pinref part="C39" gate="G$1" pin="1"/>
 <junction x="345.44" y="193.04"/>
 <wire x1="345.44" y1="193.04" x2="340.36" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="193.04" x2="335.28" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="193.04" x2="340.36" y2="193.04" width="0.1524" layer="91"/>
+<junction x="340.36" y="193.04"/>
 </segment>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
@@ -13121,6 +13133,7 @@ DEPG0290B01: Do not populate R26</text>
 <wire x1="317.5" y1="243.84" x2="317.5" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="243.84" x2="330.2" y2="243.84" width="0.1524" layer="91"/>
 <label x="320.04" y="243.84" size="1.778" layer="95"/>
+<junction x="317.5" y="243.84"/>
 </segment>
 </net>
 </nets>
